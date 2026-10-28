@@ -249,6 +249,13 @@ body {
   background-color: rgba(129, 129, 129, 0.1);
 }
 
+#mensagem-aviso {
+  display: flex;
+  margin: 10px;
+  color: #ff0000;
+  font-size: 16px;
+}
+
 #btnEnviar {
   cursor: pointer;
   background-color: #3875ee;
@@ -270,6 +277,26 @@ body {
 
 #btnEnviar:active {
   font-size: 18.5px;
+}
+
+.msg-digitada {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  padding-right: 12px;
+  margin: 10px 30px 10px 450px;
+  font-family: "Poppins", system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  height: 100px;
+  background-color: #3875ee;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.msg-digitada[hidden] {
+  display: none;
 }
 
 /* SEÇÃO "PARA QUEM?" */
